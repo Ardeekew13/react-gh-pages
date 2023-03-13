@@ -12,9 +12,9 @@ import {motion} from 'framer-motion'
 
 function Services() {
   return (
-    <section id="skills">
-    <div className='pt-32 h-[full]'> 
-    <h2 className='text-3xl  sm:text-5xl flex gap-2 pt-15 justify-center font-bold xs:text-4xl'><h2 className='text-[#90CCF3]'> My</h2>Skills</h2>
+    <section id='skills' className='pb-80 lg:pb-80 md:pb-60 sm:pb-50 xs:pb-40' >
+    <div className='h-[full]'> 
+    <h2 className='text-3xl  sm:text-5xl flex gap-2 justify-center font-bold xs:text-4xl'><h2 className='text-[#90CCF3]'> My</h2>Skills</h2>
         </div>
             <div className='pt-20 max-w-[1240px] mx-auto grid md:grid-cols-2 gap-8 xs:px-4'>
         <motion.div className='mx-auto'
@@ -26,9 +26,9 @@ function Services() {
           hidden:{opacity:0, y:100},
           visible:{opacity:1,x:0,y:0}
          }}>
-        <div className='w-full h-[700px] bg-white shadow-2xl rounded-3xl text-black text-center '>
+        <div className='w-full h-[700px] bg-white shadow-2xl rounded-3xl text-black text-center px-10 '>
             <img className='w-28 pt-5 mx-auto pb-10' src={algorithmIMG} alt="icon"/>
-            <h3 className='text-2xl font-bold pb-5'>UX/UI Design</h3>
+            <h3 className='text-2xl font-bold pb-5 '>UX/UI Design</h3>
             <p>Our UX and UI design services create 
             user-centered digital experiences tailored 
             to businesses' unique needs, through user 
@@ -51,7 +51,7 @@ function Services() {
           hidden:{opacity:0, y:100},
           visible:{opacity:1,x:0,y:0}
          }}>
-        <div className='w-full h-full bg-white rounded-3xl text-black text-center'>
+        <div className='w-full h-full bg-white rounded-3xl text-black text-center px-10'>
             <img className='w-28 pt-5 mx-auto pb-10' src={learningIMG} alt="icon"/>
             <h3 className='text-2xl font-bold pb-5'>Web developer</h3>
             <p>Our front-end development services build responsive and 

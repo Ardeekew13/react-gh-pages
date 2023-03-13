@@ -18,10 +18,10 @@ function Navbar2() {
                 <Link to="about" activeClass='active2' spy={true} smooth={true} offset={-100} duration={500} className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center'>
                 <BiUser/>
                 </Link>
-                <Link to="skills" activeClass='active2' spy={true} smooth={true} offset={50} duration={500} className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center'>
+                <Link to="skills" activeClass='active2' spy={true} smooth={true} offset={-80} duration={500} className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center'>
                 <GiSkills/>
                 </Link>
-                <Link to="services" activeClass='active2' spy={true} smooth={true} offset={40} duration={500} className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center'>
+                <Link to="services" activeClass='active2' spy={true} smooth={true} offset={-70} duration={500} className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center'>
                 <FaCogs/>
                 </Link>
                 <Link to="portfolio" activeClass='active2'spy={true} smooth={true} offset={100} duration={500} className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center'>

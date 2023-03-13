@@ -15,9 +15,9 @@ function Hero() {
     loop:0,
   });
   return (
-    <section id='hero' name='hero' className='flex items-center w-full lg:py-0  lg:pl-28  md:mx-auto md:items-center md:justify-center'>
+    <section id='hero' name='hero' className='flex items-center w-full lg:py-0  lg:pl-28  md:mx-auto md:items-center md:justify-center lg:pb-80 md:pb-60 sm:pb-50 xs:pb-40'>
       <div className='container mx-auto w-full h-full pt-20 sm:flex sm:items-center sm:mx-auto sm:justify-center xs:px-4 xs:text-center xs:flex xs:justify-center xs:items-center'>
-       <div className='flex items-center h-full pt-8 justify-center'>
+       <div className='flex items-center h-full  justify-center'>
        <motion.div
         initial='hidden'
         whileInView="visible"

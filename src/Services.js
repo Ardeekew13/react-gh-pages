@@ -7,11 +7,9 @@ import {motion} from 'framer-motion'
 
 function Services() {
   return (
-    <section id="services" >
-    <div className='pt-32 h-[400px]'> 
-     <h2 className='text-center justify-center font-bold text-3xl  sm:text-5xl pt-24 xs:text-4xl'> Services</h2>
-        </div>
-            <div className='pt-5 max-w-[1240px] mx-auto grid md:grid-cols-3 gap-8 xs:px-4'>
+    <section id="services" className='lg:pb-80 md:pb-60 sm:pb-50 xs:pb-40' >
+     <h2 className='text-center justify-center font-bold text-3xl  sm:text-5xl xs:text-4xl pb-10'> Services</h2>
+            <div className=' max-w-[1240px] mx-auto grid md:grid-cols-3 gap-8 xs:px-4'>
             <motion.div className='mx-auto'
           initial="hidden"
           whileInView="visible"

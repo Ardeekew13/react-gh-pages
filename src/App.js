@@ -7,14 +7,12 @@ import Services from './Services';
 import Portfolio from './Portfolio';
 import Contact from './Contact';
 import Footer from './Footer';
-import Navbar2 from './Navbar2';
 
 function App() {
     return (
         <>
             
             <Navbar/>
-            <Navbar2/>
             <Hero/>
             <About/>
             <Skills/>
