@@ -12,11 +12,11 @@ import {motion} from 'framer-motion'
 
 function Services() {
   return (
-    <section id="skills" className='lg:pb-20 md:pb-16 sm:pb-14 xs:pb-12'>
-    <div className='h-[full]'> 
-    <h2 className='text-3xl  sm:text-5xl flex gap-2  justify-center font-bold xs:text-4xl'><h2 className='text-[#90CCF3]'> My</h2>Skills</h2>
+    <section id="services" >
+    <div className='pt-32 h-[400px]'> 
+     <h2 className='text-center justify-center font-bold text-3xl  sm:text-5xl pt-24 xs:text-4xl'> Services</h2>
         </div>
-            <div className='pt-10 max-w-[1240px] mx-auto grid md:grid-cols-2 gap-8 xs:px-4'>
+            <div className='pt-5 max-w-[1240px] mx-auto grid md:grid-cols-3 gap-8 xs:px-4'>
         <motion.div className='mx-auto'
           initial="hidden"
           whileInView="visible"
