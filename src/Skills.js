@@ -14,9 +14,9 @@ function Services() {
   return (
     <section id='skills' className='lg:pb-20 md:pb-16 sm:pb-14 xs:pb-12' >
     <div className='h-[full]'> 
-    <h2 className='text-3xl  sm:text-5xl flex gap-2 justify-center font-bold xs:text-4xl'><h2 className='text-[#90CCF3]'> My</h2>Skills</h2>
+    <h2 className='text-3xl  sm:text-5xl flex gap-2 justify-center font-bold xs:text-4xl pb-10'><h2 className='text-[#90CCF3]'> My</h2>Skills</h2>
         </div>
-            <div className='pt-20 max-w-[1240px] mx-auto grid md:grid-cols-2 gap-8 xs:px-4'>
+            <div className=' max-w-[1240px] mx-auto grid md:grid-cols-2 gap-8 xs:px-4'>
         <motion.div className='mx-auto'
           initial="hidden"
           whileInView="visible"

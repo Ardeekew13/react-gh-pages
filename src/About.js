@@ -11,9 +11,9 @@ function About() {
     <div className='container mx-auto'>
         <div>
             <div className='text-center mx-auto '>
-                <h2 className='lg:text-7xl  sm:text-5xl md:text-5xl font-bold  pb-6 flex justify-center  xs: text-4xl gap-3'>About <h2 className='text-[#90CCF3]'> Me</h2> </h2>
+            <h2 className='text-3xl  sm:text-5xl flex gap-2 justify-center font-bold xs:text-4xl pb-10'><h2 className='text-[#90CCF3]'> About</h2>Me</h2>
                 
-                <p  className='max-w-screen-md mx-auto pt-5 text-center pb-5'>
+                <p  className='max-w-screen-md mx-auto pt-5 text-center pb-10'>
                 I finished my degree, Bachelor of Science in Information Technology at Holy Name University. My degree taught me invaluable knowledge in programming languages , web design, and many more. My knowledge and skills have been very beneficial in providing quality services to my clients.  In addition, I  am flexible, reliable and possess excellent time keeping skills. I am an enthusiastic, self-motivated, reliable, responsible and hard working person who loves web design. I am able to work well both in a team environment as well as using own initiative.  Moreover, I help clients achieve their smart, measurable, attainable, realistic, and timely goals.
                 </p>
                 <div className='flex justify-center gap-x-6 lg:gap-x-10 mg-12'>
