@@ -2,10 +2,15 @@ import React from 'react'
 import icon from '../src/images/tg.png'
 import icon2 from '../src/images/fb.png'
 import icon3 from '../src/images/gmail.png'
+import Backtotopbutton from './Backtotopbutton';
+
 
 function Footer() {
   return (
+    <section id="footer">
+       
     <div className='bg-[#283247] text-sm p-4  flex justify-between '>
+          
         <p>
             Zamora,Bilar,Bohol
         </p>
@@ -16,6 +21,8 @@ function Footer() {
         </div>
       
     </div>
+    <Backtotopbutton/>
+    </section>
   );
 }
 

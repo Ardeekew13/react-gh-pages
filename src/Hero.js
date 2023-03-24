@@ -15,7 +15,7 @@ function Hero() {
     loop:0,
   });
   return (
-    <section id='hero' name='hero' className='flex items-center w-full lg:py-0  lg:pl-28  md:mx-auto md:items-center md:justify-center'>
+    <section id='hero' name='hero' className='flex items-center w-full lg:py-0  lg:pl-28  md:mx-auto md:items-center md:justify-center lg:pb-20 md:pb-16 sm:pb-14 xs:pb-12'>
       <div className='container mx-auto w-full h-full pt-20 sm:flex sm:items-center sm:mx-auto sm:justify-center xs:px-4 xs:text-center xs:flex xs:justify-center xs:items-center'>
        <div className='flex items-center h-full pt-8 justify-center'>
        <motion.div

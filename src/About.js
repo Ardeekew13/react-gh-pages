@@ -7,8 +7,8 @@ function About() {
         threshold:0.5,
     });
   return (
-    <section className='about' ref={ref}>
-    <div className='container mx-auto pt-10'>
+    <section className='about lg:pb-20 md:pb-16 sm:pb-14 xs:pb-12' ref={ref}>
+    <div className='container mx-auto'>
         <div>
             <div className='text-center mx-auto '>
                 <h2 className='lg:text-7xl  sm:text-5xl md:text-5xl font-bold  pb-6 flex justify-center  xs: text-4xl gap-3'>About <h2 className='text-[#90CCF3]'> Me</h2> </h2>

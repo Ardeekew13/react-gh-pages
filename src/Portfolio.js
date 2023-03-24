@@ -7,12 +7,12 @@ import {motion} from "framer-motion";
 
 function Portfolio() {
     return (
-        <section id="portfolio">
-        <div className='max-w-screen-lg p-3 mx-auto flex flex-col justify-center w-full mt-14 h-3/4'>
-            <div className='pb-8 text-center font-bold'>
-              <h2 className='text-3xl  sm:text-5xl flex gap-2 pt-24 justify-center pb-20 xs:text-4xl xs:justify-center xs:text-center'><h2 className='text-[#90CCF3] xs:text-4xl sm:text-5xl md:text-5xl'> My</h2>Portfolio</h2>
+        <section id="portfolio" className="lg:pb-20 md:pb-16 sm:pb-14 xs:pb-12">
+        <div className='max-w-screen-lg p-3 mx-auto flex flex-col justify-center w-full h-3/4'>
+            <div className='text-center font-bold'>
+              <h2 className='text-3xl  sm:text-5xl flex gap-2 justify-center pb-10 xs:text-4xl xs:justify-center xs:text-center'><h2 className='text-[#90CCF3] xs:text-4xl sm:text-5xl md:text-5xl'> My</h2>Portfolio</h2>
                 </div>
-                    <div className='grid sm:gridcols-2 mx-auto  md:grid-cols-3 gap-8  pb-20 xs:px-2'>
+                    <div className='grid sm:gridcols-2 mx-auto  md:grid-cols-3 gap-8 xs:px-2'>
                     <motion.div
                     initial="hidden"
                     whileInView="visible"
