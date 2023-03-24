@@ -12,12 +12,11 @@ function Navbar() {
       <Link to="hero" spy={true} smooth={true} offset={-100} duration={500}><p>Ardee</p></Link>
       </div>
           <ul className='hidden md:flex'>
-          <li><Link to="hero" activeClass="active" spy={true} smooth={true} offset={-100} duration={500}>Home</Link></li>
           <li><Link to="about" spy={true} smooth={true} offset={-150} duration={500}>About</Link></li>
           <li><Link to="skills" spy={true} smooth={true} offset={50} duration={500}>Skills</Link></li>
           <li><Link to="services" spy={true} smooth={true} offset={-50} duration={500}>Services</Link></li>
           <li><Link to="portfolio" spy={true} smooth={true} offset={-50} duration={500}>Portfolio</Link></li>
-          <li><a href="mailto:rdquilicot14@gmail.com">Contact Us</a></li>
+          <li><Link to="contact" spy={true} smooth={true} offset={-50} duration={500}>Contact Us</Link></li>
         </ul>
       <div onClick={handleClick}className='md:hidden z-10'>
        {!click ? <FaBars />: <FaTimes/>}

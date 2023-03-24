@@ -15,7 +15,7 @@ function Hero() {
     loop:0,
   });
   return (
-    <section id='hero' name='hero' className='flex items-center w-full lg:py-0  lg:pl-28  md:mx-auto md:items-center md:justify-center lg:pb-80 md:pb-60 sm:pb-50 xs:pb-40'>
+    <section id='hero' name='hero' className='flex items-center w-full lg:py-0  lg:pl-28  md:mx-auto md:items-center md:justify-center lg:pb-20 md:pb-16 sm:pb-14 xs:pb-12  '>
       <div className='container mx-auto w-full h-full pt-20 sm:flex sm:items-center sm:mx-auto sm:justify-center xs:px-4 xs:text-center xs:flex xs:justify-center xs:items-center'>
        <div className='flex items-center h-full  justify-center'>
        <motion.div
@@ -28,11 +28,11 @@ function Hero() {
           visible: {opacity:1, x:0}
         }}
         >
-        <div className='flex-1 flex flex-col item-center lg:items-start md:items-center sm:flex sm:justify-center sm:mx-auto sm:w-full sm:items-center pt-24 pb-24'>
+        <div className='flex-1 flex flex-col item-center lg:items-start md:items-center sm:flex sm:justify-center sm:mx-auto sm:w-full sm:items-center '>
           <h1 className='md:hidden sm:flex text-[#cd07bd] text-2xl'>Hi, My name is</h1>
             <h1 className='text-4xl md:text-5xl md:leading-tight lg:text-7xl lg:leading-[1.2]  font-bold md:tracking-[-2px ] items-center'>Ron Derick Quilicot</h1>
             <span className='text-3xl py-2 sm:text-4xl font-bold text-[#90CCF3]'>I'm a {text}</span>
-            <p className='py-3 max-w-[600px] text-left'>As a web developer and designer, I combine expertise in front-end and back-end web development with creative design skills. I'm proficient in programming languages including HTML, CSS, JavaScript, and React, as well as design tools such as Adobe Illustrator and Figma. With a focus on problem-solving, attention to detail, and passion for innovation, I create visually appealing and highly functional web applications that meet clients' needs in various industries.</p>
+            <p className='py-3 max-w-[600px] text-left'>As a web developer and designer, I combine expertise in front-end and back-end web development with creative design skills. </p>
       <button className='border-2 px-3 py-3 hover:bg-[#7441b9] hover:border-[#7441b9]'><Link to="portfolio" spy={true} smooth={true} offset={-50} duration={500}>See My work</Link></button>
       </div>
       </motion.div>

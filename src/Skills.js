@@ -12,7 +12,7 @@ import {motion} from 'framer-motion'
 
 function Services() {
   return (
-    <section id='skills' className='pb-80 lg:pb-80 md:pb-60 sm:pb-50 xs:pb-40' >
+    <section id='skills' className='lg:pb-20 md:pb-16 sm:pb-14 xs:pb-12' >
     <div className='h-[full]'> 
     <h2 className='text-3xl  sm:text-5xl flex gap-2 justify-center font-bold xs:text-4xl'><h2 className='text-[#90CCF3]'> My</h2>Skills</h2>
         </div>
