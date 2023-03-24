@@ -23,10 +23,10 @@ function Navbar() {
       </div>
      
       <ul className={!click ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-black flex flex-col justify-center items-center'}>
-          <li className="py-5 text-4xl"><Link to="hero" spy={true} smooth={true} offset={50} duration={500}>Home</Link></li>
           <li className="py-5 text-4xl"><Link to="about" spy={true} smooth={true} offset={50} duration={500}>About</Link></li>
           <li className="py-5 text-4xl"><Link to="skills" spy={true} smooth={true} offset={50} duration={500}>Skills</Link></li>
           <li className="py-5 text-4xl"><Link to="services" spy={true} smooth={true} offset={50} duration={500}>Services</Link></li>
+          <li className="py-5 text-4xl"><Link to="portfolio" spy={true} smooth={true} offset={50} duration={500}>Portfolio</Link></li>
           <li className="py-5 text-4xl"><Link to="contact" spy={true} smooth={true} offset={50} duration={500}>Contact Us</Link></li>
         </ul>
         <div className='hidden'>

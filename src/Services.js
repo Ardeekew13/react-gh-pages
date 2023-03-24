@@ -19,7 +19,7 @@ function Services() {
           hidden:{opacity:0, y:100},
           visible:{opacity:1,x:0,y:0}
          }}>
-            <div className='w-full h-[500px] bg-[#90CCF3] rounded-3xl text-black text-center'>
+            <div className='w-full h-[500px] bg-[#90CCF3] rounded-3xl text-black text-center px-4'>
             <img className='w-28 pt-5 mx-auto pb-10' src={icons} alt="icon"/>
             <h3 className='text-2xl font-bold pb-5'>UX/UI Design</h3>
             <p>Our UX and UI design services create 
@@ -39,7 +39,7 @@ function Services() {
           hidden:{opacity:0, y:100},
           visible:{opacity:1,x:0,y:0}
          }}>
-        <div className='w-full h-full bg-[#90CCF3] rounded-3xl text-black text-center'>
+        <div className='w-full h-[500px] bg-[#90CCF3] rounded-3xl text-black text-center px-4'>
             <img className='w-28 pt-5 mx-auto pb-10' src={icons1} alt="icon"/>
             <h3 className='text-2xl font-bold pb-5'>Front-end developer</h3>
             <p>Our front-end development services build responsive and 
@@ -57,7 +57,7 @@ function Services() {
           hidden:{opacity:0, y:100},
           visible:{opacity:1,x:0,y:0}
          }}>
-        <div className='w-full h-full bg-[#90CCF3] rounded-3xl text-black text-center'>
+        <div className='w-full h-[500px] bg-[#90CCF3] rounded-3xl text-black text-center px-4'>
             <img className='w-28 pt-5 mx-auto pb-10' src={icons2} alt="icon"/>
             <h3 className='text-2xl font-bold pb-5'>Back-end developer</h3>
             <p>Our back-end development services provide scalable and secure server-side

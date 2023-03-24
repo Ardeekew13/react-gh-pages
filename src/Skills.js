@@ -59,12 +59,12 @@ function Services() {
                 ensuring a seamless user experience on all devices.
             </p>
             <h3 className='text-2xl font-bold pt-10'>Tools</h3>
-            <div className='grid grid-cols-3 mx-auto gap-2'>
+            <div className='grid grid-cols-3 mx-auto gap-2 pb-5'>
             <img className='w-24 pt-5 mx-auto' src={Dlogo3} alt="icon "/>
-            <img className='w-26 pt-5 mx-auto ' src={Dlogo4} alt="icon"/>
+            <img className='w-40 pt-10 mx-auto ' src={Dlogo4} alt="icon"/>   
             <img className='w-24 pt-5 mx-auto ' src={Dlogo5} alt="icon"/>
             <img className='w-26 pt-5 mx-auto ' src={Dlogo6} alt="icon"/>
-            <img className='w-24 pt-5 mx-auto ' src={Dlogo7} alt="icon"/>
+            <img className='w-16 pt-5 mx-auto ' src={Dlogo7} alt="icon"/>
             </div>
         </div>
         </motion.div>
