@@ -7,7 +7,7 @@ function About() {
         threshold:0.5,
     });
   return (
-    <section className='about lg:mb-80 md:mb-60 sm:mb-50 xs:mb-40' ref={ref} >
+     <section id='about' className=' lg:pb-20 md:pb-16 sm:pb-14 xs:pb-12' ref={ref}>
     <div className='container mx-auto'>
         <div>
             <div className='text-center mx-auto '>

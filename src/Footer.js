@@ -2,6 +2,8 @@ import React from 'react'
 import icon from '../src/images/tg.png'
 import icon2 from '../src/images/fb.png'
 import icon3 from '../src/images/gmail.png'
+import Backtotopbutton from './Backtotopbutton';
+
 
 function Footer() {
   return (
@@ -14,7 +16,7 @@ function Footer() {
             <img className='w-[25px] h-[25px]  ' src={icon2} alt="icon"></img>
             <img className='w-[25px] h-[25px]  ' src={icon3} alt="icon"></img>
         </div>
-      
+      <Backtotopbutton/>
     </div>
   );
 }
